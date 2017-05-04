@@ -1,0 +1,33 @@
+{
+  "name": "angular2-moment",
+  "homepage": "https://github.com/urish/angular2-moment",
+  "authors": [
+    "Uri Shaked <uri@salsa4fun.co.il>"
+  ],
+  "description": "Moment.JS pipes for Angular2 (timeago and more)",
+  "main": "TimeAgoPipe.ts",
+  "moduleType": [
+    "es6"
+  ],
+  "keywords": [
+    "angular2",
+    "momentjs"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "version": "1.3.3",
+  "_release": "1.3.3",
+  "_resolution": {
+    "type": "version",
+    "tag": "1.3.3",
+    "commit": "21c56044e997c0a8cb70b5abfbc299dbf4eb92df"
+  },
+  "_source": "https://github.com/urish/angular2-moment.git",
+  "_target": "^1.3.3",
+  "_originalSource": "angular2-moment",
+  "_direct": true
+}

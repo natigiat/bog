@@ -1,0 +1,107 @@
+page-home {
+  
+  div#map {
+    width:100%;
+    height: 400px;
+  }
+  .goto{
+    width:100%;
+    padding: 20px;
+    margin: 5px;
+  }
+  
+  .dayTalks {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#bc8e1a+0,bd952f+50,bca364+100 */
+background: #bc8e1a; /* Old browsers */
+background: -moz-linear-gradient(top, #bc8e1a 0%, #bd952f 50%, #bca364 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #bc8e1a 0%,#bd952f 50%,#bca364 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #bc8e1a 0%,#bd952f 50%,#bca364 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bc8e1a', endColorstr='#bca364',GradientType=0 ); /* IE6-9 */
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    padding: 5px 15px;
+    margin: 10px 10px;
+    font-size: 14px;
+
+}
+.programTitle.card-title {
+    padding: 10px 10px;
+    color: #bd952f;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.item-md .text-md-c1 {
+    color: #000000!important;
+}
+
+span.title1 {
+    color: #314272;
+    font-weight: 100;
+    font-family: 'Lato', sans-serif;
+    display: block;
+    overflow: initial;
+    white-space: initial;
+}
+
+.title2{
+    color: #314272;
+    font-weight: 100;
+    font-family: 'Lato', sans-serif;
+    display: block;
+    overflow: initial;
+    white-space: initial;
+}
+span.nameS {
+    color: #47a0ea;
+}
+
+span.gold {
+    color: #a48d52;
+}
+
+p.invit {
+    font-weight: bold;
+}
+
+
+
+span.sub {font-style: italic;color: #314272;display: block;}
+
+.lineCO {
+
+ }
+
+ .colorB {
+    font-family: 'Lato', sans-serif;
+    color: #5584A3
+}
+
+
+.item-md h3 {
+        color: #004D69;
+}
+
+p {
+    overflow: initial;
+    white-space: initial;
+}
+
+ion-slides{
+ height: 226px;
+ padding: 10px;
+}
+
+
+ion-slides.slides.slides-md.slides-0 {
+    height: 200px;
+    padding: 10px;
+}
+
+
+.platform-ios .slides{
+  display:none;
+}
+
+
+}

@@ -1,0 +1,689 @@
+<ion-header>
+  <ion-navbar color="c2">
+    <ion-title>Home</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+<img src="assets/images/top.jpg" style="max-width: 100%;">
+
+<ion-card>
+  <ion-card-header color="c2">
+    WELCOME 
+  </ion-card-header>
+  <ion-card-content>
+    When will we be able to transplant a 3D-printed heart?  How will your grandchildren and future generations learn with personalized education
+?  <button ion-button small outline color="c2" full (click)="changePage()">read more</button>
+  </ion-card-content>
+</ion-card>
+
+
+
+<!-- 
+<ion-content scroll="false">
+  <ion-slides  options="options" slider="data.slider">
+    <ion-slide-page>
+      <div class="box blue"><h1>BLUE</h1></div>
+    </ion-slide-page>
+    <ion-slide-page>
+      <div class="box yellow"><h1>YELLOW</h1></div>
+    </ion-slide-page>
+    <ion-slide-page>
+      <div class="box pink"><h1>PINK</h1></div>
+    </ion-slide-page>
+  </ion-slides>
+</ion-content>
+ -->
+
+<ion-slides [options]="mySlideOptions">
+   <ion-slide>
+    <img src="assets/images/slider/1.jpg" height="360" width="581">
+  </ion-slide>
+  <ion-slide>
+    <img src="assets/images/slider/2.jpg">
+  </ion-slide>
+  <ion-slide>
+    <img src="assets/images/slider/3.jpg">
+  </ion-slide>
+  <ion-slide>
+    <img src="assets/images/slider/4.jpg">
+  </ion-slide>
+  <ion-slide>
+    <img src="assets/images/slider/5.jpg">
+  </ion-slide>
+</ion-slides>
+
+
+<!-- <ion-slides padding [options]="{pager:true}" style="max-height:200px" class="sliderIm">
+
+  <ion-slide *ngFor="let slide of slides">
+    <img [src]="slide">
+  </ion-slide>
+
+</ion-slides> -->
+
+
+<ion-card>
+
+<ion-card-title class="programTitle">
+      Program
+      </ion-card-title>
+
+<ion-card-header class="dayTalks">
+    WEDNESDAY, MAY 17
+</ion-card-header>
+
+
+ <ion-list>
+  <ion-item>
+    <h2 color="c1">9:00am - 10:15am</h2>
+    <span class="lineCO"></span>
+    <h3>Finance Committee</h3>
+    <p>Eitan Berglas School of Economics, Fredy and Jetty
+Strauss, Argentina, Conference Room (101)</p>
+  </ion-item>
+</ion-list>
+
+
+<ion-list>
+  <ion-item>
+    <h2 color="c1">10:15am - 11:30am</h2>
+    <span class="lineCO"></span>
+    <h3>Funds and Trusts Committee</h3>
+    <p>Eitan Berglas School of Economics, Fredy and Jetty
+Strauss, Argentina, Conference Room (101)</p>
+  </ion-item>
+</ion-list>
+
+
+<ion-list>
+  <ion-item>
+    <h2 color="c1">10:15am - 11:45am</h2>
+    <span class="lineCO"></span>
+    <h3>TAU Capital Campaign Cabinet</h3>
+    <p class="invit">By invitation only</p>
+  </ion-item>
+</ion-list>
+
+<ion-list>
+  <ion-item>
+    <h2 color="c1">12:00pm - 3:00pm</h2>
+    <span class="lineCO"></span>
+    <h3>Presidents of Friends Associations Leadership
+Meeting</h3>
+    <p class="invit">By invitation only</p>
+  </ion-item>
+</ion-list>
+
+<ion-list>
+  <ion-item>
+    <h2 color="c1">12:30pm - 3:00pm</h2>
+    <span class="lineCO"></span>
+    <h3>Student Affairs Committee</h3>
+    <p>Itzhak Alfred Guttmann Administration Building (308)</p>
+  </ion-item>
+</ion-list>
+
+<ion-list>
+  <ion-item>
+    <h2 color="c1">2:15pm - 3:45pm</h2>
+    <span class="lineCO"></span>
+    <h3>Campus Development and Maintenance
+Committee</h3>
+    <p>Porter School of Environmental Studies Building,
+Capsule (221)</p>
+  </ion-item>
+</ion-list>
+
+<ion-list>
+  <ion-item>
+    <h2 color="c1">3:00pm - 4:30pm</h2>
+    <span class="lineCO"></span>
+    <h3>Inauguration of The Sagol Center for Regenerative
+Medicine</h3>
+    <p><span class="title1">Chair:</span>
+<span class="nameS">Prof. Tal Dvir</span>, Director, Sagol Center for Regenerative
+Medicine, Department of Molecular Biology and
+Biotechnology, George S. Wise Faculty of Life Sciences;
+Center for Nanoscience and Nanotechnology
+<span class="title1">Speakers:</span>
+<span class="nameS">Prof. Tal Dvir</span>
+<span class="title1">Engineering Patient-Specific Organs and Body Parts</span>
+<span class="nameS">Prof. Yael Hanein</span>, Director, Center for Nanoscience and
+Nanotechnology; Director, Marian Gertner Institute for
+Medical Nanosystems; School of Electrical Engineering,
+Iby and Aladar Fleischman Faculty of Engineering
+<span class="sub">Do You See the Point? From Sight Restoration to
+Psychological Evaluation Using Nanotechnology</span>
+<span class="nameS">Dr. Yuval Ebenstein</span>, Raymond and Beverly Sackler
+School of Chemistry, Raymond and Beverly Sackler
+Faculty of Exact Sciences
+<span class="sub">Beyond Genetics</span>
+<span class="nameS">Dr. Lihi Adler-Abramovich</span>, Department of
+Oral Biology, Goldschleger School of Dental
+Medicine, Sackler Faculty of Medicine
+<span class="sub">Harnessing Nature to Create New Organic Materials
+For Tissue Regeneration</span></p>
+
+  </ion-item>
+</ion-list>
+
+<ion-list>
+  <ion-item>
+    <h2 color="c1">7:00pm</h2>
+    <span class="lineCO"></span>
+    <h3>President’s Circle Dinner</h3>
+    <p class="invit">By invitation only</p>
+  </ion-item>
+</ion-list>
+
+<!-- new day -->
+
+<ion-card-header class="dayTalks">
+    THURSDAY, MAY 18
+</ion-card-header>
+
+
+
+<ion-list>
+  <ion-item>
+    <h2 color="c1">9:00am - 10:45am</h2>
+    <span class="lineCO"></span>
+    <h3>First Assembly of the Board of Governors</h3>
+    <p>
+    <span class="title1">Opening Remarks
+Welcoming New Governors</span>
+<span class="nameS">Prof. Jacob A. Frenkel</span>, Chairman, Board of Governors
+<span class="title1">State of the University</span>
+<span class="nameS">Prof. Joseph Klafter</span>, President
+<span class="title1">Executive Summary</span>
+<span class="nameS">Dr. Giora Yaron, Chairman</span>, Executive Council
+<span class="title1">TAU Capital Campaign</span>
+<span class="nameS">Mrs. Dafna Meitar-Nechmad</span>,
+TAU Capital Campaign Co-Chair
+<span class="title1">Constitutional Amendments</span>
+<span class="gold">George S. Wise Senate Building
+Raya and Josef Jaglom Auditorium</span></p>
+  </ion-item>
+</ion-list>
+
+
+
+
+<ion-list>
+  <ion-item>
+    <h2 color="c1">10:45am - 11:05am</h2>
+    <span class="lineCO"></span>
+    <h3>Break</h3>
+  </ion-item>
+</ion-list>
+
+<ion-list>
+  <ion-item>
+    <h2 color="c1">11:05am - 12:15pm</h2>
+    <span class="lineCO"></span>
+    <span class="title1"><h3>From the Blackboard to Personalized Learning:
+Cognitive Science and Education</h3></span>
+    <p>Chair:
+<span class="nameS">Prof. Yaron Oz, Rector, TAU</span>
+Speakers:
+<br>
+<span class="nameS">Dr. Tom Schonberg</span>, Department of Neurobiology,
+George S. Wise Faculty of Life Sciences; Sagol School of
+Neuroscience
+<span class="sub">Novel Methods of Behavioral Change</span>
+<span class="nameS">Prof. Naama Friedmann</span>, Jaime and Joan Constantiner
+School of Education; Sagol School of Neuroscience
+<span class="sub">From Neuropsychology to Personalized Learning: The
+Importance of Dyslexia Research</span>
+<span class="nameS">Prof. Roy Mukamel</span>, School of Psychological Sciences;
+Sagol School of Neuroscience
+<span class="sub">My Left Hand Actually Does Know What My Right
+Hand is Doing: Neural Circuits Mediating Skill Transfer
+From One Hand to the Other</span>
+<span class="nameS">Prof. Liat Kishon-Rabin</span>, Head, Stanley Steyer School of
+Health Professions, Sackler Faculty of Medicine
+<span class="sub">Nature and Nurture in Auditory Sensory Impairment</span>
+<span class="gold">George S. Wise Senate Building
+Raya and Josef Jaglom Auditorium</span></p>
+  </ion-item>
+</ion-list>
+
+
+
+
+
+<ion-list>
+  <ion-item>
+    <h2 color="c1">12:15pm - 1:45pm</h2>
+    <span class="lineCO"></span>
+    <h3>Welcome Lunch</h3>
+    <p>Celebrate the opening of the 2017 Board of
+Governors meeting with fellow Governors from
+around the globe
+Board of Governors Tent at the Sarita and Noel
+Werthein Senate Plaza, adjacent to the George S. Wise
+Senate Building</p>
+   <p class="invit">By invitation only</p>
+  </ion-item>
+</ion-list>
+
+<ion-list>
+  <ion-item>
+    <h2 color="c1">2:00pm – 3:00pm</h2>
+    <span class="lineCO"></span>
+    <h3>Launching of the Sylvan Adams Sports Excellence
+Institute (SASEI)</h3>
+    <p>Elite Sports Center</p>
+  </ion-item>
+</ion-list>
+
+
+<ion-list>
+  <ion-item>
+    <h2 color="c1">3:15pm – 4:00pm</h2>
+    <span class="lineCO"></span>
+    <span class="title1">
+<h3>Inauguration of the Dan Department of
+Communication</h3></span>
+    <p>Keynote speaker:
+<br>
+
+<span class="nameS">Amb. Stuart E. Eizenstat</span>, Special Advisor to the
+Secretary of State on Holocaust Issues and former US
+Ambassador to the European Union
+<span class="sub">The Role, Challenges and Influence of the Media in
+America Today</span>
+<span class="gold">George S. Wise Senate Building
+Raya and Josef Jaglom Auditorium</span></p>
+  </ion-item>
+</ion-list>
+
+
+
+
+
+<ion-card-header class="colorB">
+    HONORARY DEGREES CONFERMENT CEREMONY
+Doctor Philosophiae Honoris Causa and Awarding of the George S. Wise Medal
+</ion-card-header>
+
+
+
+<ion-list>
+  <ion-item>
+    <h2 color="c1">7:00pm</h2>
+    <span class="lineCO"></span>
+    <h3>Welcome Reception</h3>
+    <p>Kuky and Sergio Grosskopf Family Foyer</p>
+  </ion-item>
+</ion-list>
+
+<ion-list>
+  <ion-item>
+    <h2 color="c1">8:00pm</h2>
+    <span class="lineCO"></span>
+    <span class="title1"><h3>Ceremony</h3></span>
+    <p><span class="gold">Miriam and Adolfo Smolarz Auditorium</span>
+      <br>
+<span class="title1">2017 Recipients</span>
+George S. Wise Medal
+<br><span class="nameS">Amb. Stuart E. Eizenstat</span>, USA
+Honorary Doctors
+<br><span class="nameS">The Hon. Tony Abbott MP</span>, Australia
+<br><span class="nameS">Dr. Mario Draghi</span>, Italy
+<br><span class="nameS">Adv. Meir Linzen</span>, Israel
+<br><span class="nameS">Prof. Eve Marder</span>, USA
+<br><span class="nameS">Mrs. Pouran Nazarian</span>, USA
+<br><span class="nameS">Prof. Günter Stemberger</span>, Austria
+<br><span class="nameS">Mrs. Raya Strauss Ben-Dror</span>, Israel
+<br><span class="nameS">Mr. Ratan Tata</span>, India
+<br><span class="nameS">Prof. Qiu Yong</span>, China
+Honorary Fellowship
+<br><span class="nameS">Habima National Theater</span>
+<br><span class="nameS">Mrs. Shira Shofty</span>, Dov Lautman Unit for Science
+Oriented Youth, Tel Aviv University
+Response on behalf of the recipients:
+<br><span class="nameS">Dr. Mario Draghi</span>
+Musical Interlude
+Habima National Theater</p>
+  </ion-item>
+</ion-list>
+
+
+
+
+
+<ion-list>
+  <ion-item>
+    <h2 color="c1">9:30pm</h2>
+    <span class="lineCO"></span>
+    <h3>Dessert Reception</h3>
+    <p><span class="gold">Albert and Elba Cuenca Entrance Plaza</span>
+Dress code: Dark suit
+<br>
+Ceremony will be broadcast live:
+<a href="http://video.tau.ac.il/Board-of-Governors-17">http://video.tau.ac.il/Board-of-Governors-17</a></p>
+  </ion-item>
+</ion-list>
+
+
+<ion-card-header class="dayTalks">
+    FRIDAY, MAY 19
+</ion-card-header>
+
+
+<ion-list>
+  <ion-item>
+    <h2 color="c1">9:00am – 9:45am</h2>
+    <span class="lineCO"></span>
+    <h3>Plaque Unveiling of the Fabian-Cyril Boisson
+Auditorium Donated by Nathalie Kerber</h3>
+    <p><span class="gold">The Steinhardt Museum of Natural History
+Israel National Center for Biodiversity Studies</span></p>
+  </ion-item>
+</ion-list>
+
+<ion-list>
+  <ion-item>
+    <h2 color="c1">10:00am – 10:45am</h2>
+    <span class="lineCO"></span>
+    <h3>Inauguration of the Miles S. Nadal Home for
+Technological Innovation and Entrepreneurship</h3>
+    <p><span class="gold">Joseph Meyerhoff Building, Second Floor</span></p>
+  </ion-item>
+</ion-list>
+
+<ion-list>
+  <ion-item>
+    <h2 color="c1">11:05am – 01:00pm</h2>
+    <span class="lineCO"></span>
+    <h3>Geopolitical Symposium</h3>
+    <p><span class="sub">The Polarized GlobalSystem - Challenges and Prospects</span>
+<span class="title1">Moderator:</span>
+<span class="nameS">Prof. Jacob A. Frenkel</span>, Chairman, TAU Board of
+Governors, former Governor of the Bank of Israel
+Speakers:
+<br><span class="nameS">Amb. Stuart E. Eizenstat</span>, Special Advisor to the
+Secretary of State on Holocaust Issues and former US
+Ambassador to the EU
+<br><span class="nameS">The Hon. Tony Abbott MP</span>, former Prime Minister of
+Australia
+<br><span class="nameS">Mr. Jean-Claude Trichet</span>, former President of the
+European Central Bank and former Governor of the
+Bank of France <span class="title1">Inauguration and Awarding of the Annual Boris
+Mints Institute Prize for Research of Strategic
+Policy Solutions to Global Challenges</span>
+Prize recipient:
+<br><span class="nameS">Prof. Jeffrey D. Sachs</span>, Director, Earth Institute,
+Columbia University, USA
+<br><span class="gold">George S. Wise Senate Building
+Raya and Josef Jaglom Auditorium</span></p>
+  </ion-item>
+</ion-list>
+
+
+<!-- <span class="title1">
+<span class="nameS">
+<span class="sub"> -->
+
+<ion-list>
+  <ion-item>
+    <h2 color="c1">1:00pm – 2:00pm</h2>
+    <span class="lineCO"></span>
+    <h3>Lunch</h3>  
+    <p class="invit">By invitation only</p>
+  </ion-item>
+</ion-list>
+
+<ion-list>
+  <ion-item>
+    <h2 color="c1">2:00pm – 3:00pm</h2>
+    <span class="lineCO"></span>
+    <span class="title1"><h3>Awarding of the Hugo Ramniceanu Prize in
+Economics for 2017</h3></span>
+    <p>Prize Recipients: 
+<br><span class="nameS">Gaby and Etty Rotter</span>, Co-CEOs, Castro
+Model Ltd.
+Remarks: 
+<br><span class="nameS">Mr. Jean-Claude Trichet</span>, former President of
+the European Central Bank and former Governor of the
+Bank of France
+<br><span class="gold">George S. Wise Senate Building
+Raya and Josef Jaglom Auditorium</span></p>
+  </ion-item>
+</ion-list>
+
+
+
+
+
+<ion-list>
+  <ion-item>
+    <h2 color="c1">5:00pm – 6:30pm</h2>
+    <span class="lineCO"></span>
+    <h3>Kabbalat Shabbat Tel Aviv-Style</h3>
+    <p>Sunset cocktail reception by the beach
+<span class="gold">Hilton Tel Aviv Hotel</span></p>
+  </ion-item>
+</ion-list>
+
+<ion-list>
+  <ion-item>
+    <h2 color="c1">8:00pm</h2>
+    <span class="lineCO"></span>
+    <h3>Shabbat Home Hospitality</h3>
+    <p>Enjoy an exclusive Friday night meal hosted in
+the home of an Israeli member of the Board of
+Governors
+(For overseas guests only)</p>
+  </ion-item>
+</ion-list>
+
+
+
+<ion-card-header class="dayTalks">
+    SATURDAY, MAY 20
+</ion-card-header>
+
+
+<ion-list>
+  <ion-item>
+    <h2 color="c1">8:30pm</h2>
+    <span class="lineCO"></span>
+    <h3><span class="title1">A Night at the Museum: Pre-Opening Celebration</span></h3>
+    <p>Join us for a magical, festive night full of surprises
+at the stunning new Steinhardt Museum of Natural
+History
+<br><span class="gold">The Steinhardt Museum of Natural History
+Israel National Center for Biodiversity Studies</span>
+<br>Dress Code: Festive</p>
+  </ion-item>
+</ion-list>
+
+
+
+
+<ion-card-header class="dayTalks">
+    SUNDAY, MAY 21
+</ion-card-header>
+
+
+<ion-list>
+  <ion-item>
+    <h2 color="c1">9:30am - 10:45am</h2>
+    <span class="lineCO"></span>
+    <span class="title1"><h3>The Annual John Gandel Symposium on the
+Middle East</h3></span>
+    <p>Keynote Speaker:
+<br><span class="nameS">Lt.-Gen. (res.) Moshe (Bogie) Ya'alon</span>, former IDF Chief
+of Staff and former Israel Defense Minister
+Co-Chairs:
+<br><span class="nameS">Prof. Uzi Rabi, Director</span>, Moshe Dayan Center for Middle
+Eastern and African Studies, TAU
+<br><span class="nameS">Mr. Richard Sincere</span>, National Chairman, AFTAU
+<br><span class="gold">George S. Wise Senate Building
+Raya and Josef Jaglom Auditorium</span></p>
+  </ion-item>
+</ion-list>
+
+
+
+
+
+
+
+<ion-list>
+  <ion-item>
+    <h2 color="c1">11:00am - 1:00pm</h2>
+    <span class="lineCO"></span>
+    <h3><span class="title1">Second Assembly of the Board of Governors</span></h3>
+    <p><br><span class="nameS">Kadar Family Award for Outstanding Research
+and Presentations by the 2017 Award Recipients</span>
+<span class="title1"> Chair: </span>
+<br><span class="nameS">Prof. Yoav Henis, VP for Research and</span>
+Development
+<br><span class="nameS">Prof. Ron Shamir</span>, Blavatnik School of Computer
+Science, Raymond and Beverly Sackler Faculty of
+Exact Sciences
+<br><span class="nameS">Prof. Nira Liberman</span>, School of Psychological
+Sciences, Gershon H. Gordon Faculty of Social
+Sciences
+<br><span class="nameS">Prof. Oded Hod</span>, School of Chemistry, Raymond and
+Beverly Sackler School of Chemistry
+<br><span class="nameS">Prof. Roy Mukamel</span>, School of Psychological
+Sciences, Gershon H. Gordon Faculty of Social
+Sciences </p>
+<p><span class="title1">State of the Student Union</span>
+<br><span class="nameS">Ms. Shay Charni</span>, Chairperson, Student Union</p>
+<p><span class="title1">Committee Reports and Resolutions</span>
+<br><span class="gold">George S. Wise Senate Building
+Raya and Josef Jaglom Auditorium</span></p>
+  </ion-item>
+</ion-list>
+
+
+<ion-list>
+  <ion-item>
+    <h2 color="c1">1:00pm - 2:30pm</h2>
+    <span class="lineCO"></span>
+    <h3>Lunch</h3>
+    <p class="invit">By invitation only</p>
+  </ion-item>
+</ion-list>
+
+
+<ion-list>
+  <ion-item>
+    <h2 color="c1">2:45pm – 3:30pm</h2>
+    <span class="lineCO"></span>
+    <h3><span class="title1">Inauguration of the Argentina Phd Fund for the Direct
+PhD Program in Life Sciences</span></h3>
+    <p><span class="gold">George S. Wise Faculty of Life Sciences, Archie Sherman
+Building of Life Sciences (003)</span>
+</p>
+  </ion-item>
+</ion-list>
+
+
+<ion-list>
+  <ion-item>
+    <h2 class="c1 title2">THE 2017 DAN DAVID PRIZE RECEPTION AND
+AWARD CEREMONY</h2>
+  </ion-item>
+</ion-list>
+
+
+<ion-list>
+  <ion-item>
+    <h2 color="c1">6:45pm – 8:00pm</h2>
+    <span class="lineCO"></span>
+    <h3>Welcome Reception</h3>
+    <p><span class="gold">Kuky and Sergio Grosskopf Family Foyer</span></p>
+  </ion-item>
+</ion-list>
+
+
+<ion-list>
+  <ion-item>
+    <h2 color="c1">8:00pm - 10:00pm</h2>
+    <span class="lineCO"></span>
+    <h3>Ceremony</h3>
+    <p><span class="gold">Miriam and Adolfo Smolarz Auditorium</span>
+<span class="title1">Laureates:</span>
+Past Time Dimension – Archaeology and Natural
+Sciences:
+<br><span class="nameS">Prof. Svante Paabo</span>, Max Planck Institute for
+Evolutionary Anthropology, Germany
+<br><span class="nameS">Prof. David Reich</span>, Harvard Medical School, USA
+Present Time Dimension – Literature:
+<br><span class="nameS">Jamaica Kincaid</span>, Author, USA
+<br><span class="nameS">A. B. Yehoshua</span>, Author, Israel
+Future Time Dimension – Astronomy
+<br><span class="nameS">Prof. Neil Gehrels (1952-2017)</span>, NASA Goddard Space
+Flight Center, USA
+<br><span class="nameS">Prof. Shrinivas Kulkarni</span>, California Institute of
+Technology, USA
+<br><span class="nameS">Prof. Andrzej Udalski</span>, Astronomical Observatory
+Warsaw University, Poland</p>
+  </ion-item>
+</ion-list>
+
+
+
+<ion-card-header class="dayTalks">
+    TUESDAY, MAY 23
+</ion-card-header>
+
+
+<ion-list>
+  <ion-item>
+    <h2 color="c1">10:45am</h2>
+    <span class="lineCO"></span>
+    <h3>Cornerstone Laying Ceremony for the Azrieli
+Architecture Building</h3>
+    <p><span class="gold">Adjacent to Frenkel Gate (7)</span></p>
+  </ion-item>
+</ion-list>
+
+
+<ion-list>
+  <ion-item>
+    <h2 color="c1">8:00pm</h2>
+    <span class="lineCO"></span>
+    <h3>Gala Concert with Maestro Zubin Mehta:
+Buchmann-Mehta School of Music Symphony
+Orchestra</h3>
+    <p><span class="gold">Charles Bronfman Auditorium, Lowy Concert Hall</span>
+<br>Please contact your local TAU Friends Association to reserve your seats.</p>
+  </ion-item>
+</ion-list>
+
+
+</ion-card>
+
+
+<ion-card>
+
+<div #map id="map" padding></div>
+
+<button class="goto" ion-button outline href="waze://?ll=32.1133141,34.802199&navigate=yes">Go To Adress</button>
+</ion-card>
+
+<ion-list>
+  <ion-item>
+    <p style="overflow: initial;
+    white-space: initial; font-size: 12px!important;">All Rights Reserved &copy; Built By</p>
+    <p>LLN IT SOLUTIONS</p>
+    <ion-thumbnail item-right>
+      <img src="assets/images/lln.jpg" style="    height: 35px!important;
+    margin: 25px 0px;
+    border: 1px solid #d9d4d4;
+    padding: 5px;">
+    </ion-thumbnail>
+    
+  </ion-item>
+</ion-list>
+
+</ion-content>
