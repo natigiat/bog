@@ -2,12 +2,18 @@ import { NgModule, ErrorHandler } from '@angular/core';
 import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
 import { MyApp } from './app.component';
 import { AboutPage } from '../pages/about/about';
+
+import { WelcomePage } from '../pages/welcome/welcome';
+import { Speakers2Page } from '../pages/speakers2/speakers2';
+import { ParticipantsPage } from '../pages/participants/participants';
+
 import { ProgramsPage } from '../pages/programs/programs';
 import { ContactPage } from '../pages/contact/contact';
 import { HomePage } from '../pages/home/home';
 import { TabsPage } from '../pages/tabs/tabs';
 import { SpeakersPage } from '../pages/speakers/speakers';
 import { DetailsPage } from '../pages/details/details';
+import { DetailsspeakPage } from '../pages/detailsspeak/detailsspeak';
 import { SocialSharing } from '@ionic-native/social-sharing';
 import { CloudSettings, CloudModule } from '@ionic/cloud-angular';
 import {MomentModule} from 'angular2-moment';
@@ -35,12 +41,16 @@ const cloudSettings: CloudSettings = {
   declarations: [
     MyApp,
     AboutPage,
+    WelcomePage,
+    Speakers2Page,
+    ParticipantsPage,
     ContactPage,
     ProgramsPage,
     HomePage,
     TabsPage,
     SpeakersPage,
     DetailsPage,
+    DetailsspeakPage,
   ],
   imports: [
     IonicModule.forRoot(MyApp),
@@ -52,12 +62,16 @@ const cloudSettings: CloudSettings = {
   entryComponents: [
     MyApp,
     AboutPage,
+    WelcomePage,
+    Speakers2Page,
+    ParticipantsPage,
     ContactPage,
     ProgramsPage,
     HomePage,
     TabsPage,
     SpeakersPage,
     DetailsPage,
+    DetailsspeakPage,
   ],
   providers: [{provide: ErrorHandler, useClass: IonicErrorHandler},SocialSharing]
 })

@@ -20,5 +20,33 @@ page-programs {
     border-top: none;
 }
 
-	
+h3 {
+    overflow: initial;
+    white-space: initial;
+}
+
+.dayTalks.card-header {
+    height: 35px;
+}
+
+
+.moreCon {
+    float: right;
+    height: 25px!important;
+    width: 25px!important;
+    padding: 7px!important;
+    margin: 0px!important;
+    color: #4d4d4d;
+    background: aliceblue;
+}
+
+.moreCon .ion-md-close {
+    font-size: 1.4rem!important;
+}
+
+ion-card-header {
+    overflow: initial;
+    white-space: initial;
+}
+
 }

@@ -1,8 +1,8 @@
-import { Component , ElementRef,} from '@angular/core';
-import { NavController, NavParams } from 'ionic-angular';
+import { Component ,ViewChild, ElementRef} from '@angular/core';
+import { NavController, NavParams , Content} from 'ionic-angular';
 import { AboutPage } from '../about/about';
 import { DetailsPage } from '../details/details';
-
+import * as $ from "jquery";
 /*
   Generated class for the Programs page.
 
@@ -13,38 +13,63 @@ import { DetailsPage } from '../details/details';
   selector: 'page-programs',
   templateUrl: 'programs.html'
 })
-export class ProgramsPage {
+export class ProgramsPage{
+  @ViewChild(Content) content: Content;
 
   constructor(public navCtrl: NavController, public navParams: NavParams , public elementRef: ElementRef) {}
+  
+
+
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad ProgramsPage');
+     
+    $('.showInfo').hide();
+    let today = new Date();
+    let dd = today.getDate();
+    let mm = today.getMonth()+1; 
 
-    // let today:string = new Date();
-    // let dd:number = today.getDate()-4;
-    // let mm:number = today.getMonth()+1; 
+    var yyyy= today.getFullYear();
+    if(dd<10){
+        let dd='0'+dd;
+    } 
+    if(mm<10){
+        let mm='0'+mm;
+    } 
+    let today= dd+'/'+mm;
+    
+    console.log(today);
 
-    // let yyyy:number = today.getFullYear();
-    // if(dd<10){
-    //     dd='0'+dd;
-    // } 
-    // if(mm<10){
-    //     mm='0'+mm;
-    // } 
-    // let today:string = dd+'/'+mm;
-    
-    // console.log(today);
-    
-    // var dateOn = document.getElementById('ion-card-header').getAttribute('data-value');
-    
-    // console.log(dateOn);
-    // if (today == dateOn){
-    //    window.location + + '+ion-card-header';
-    // }
 
-    let yOffset = document.getElementById('ion-card-header').offsetTop;
-    // document.scrollTo(0, yOffset, 4000)
-    window.scrollTo(0, 500);
+    $('body').on("click" ,'.moreCon', function(){
+        console.log(22);
+        var iconType = $(this).find("ion-icon");
+         if(iconType.hasClass("ion-md-add")){
+           $(this).closest(".moreCon").parent().next(".showInfo").show();
+           $(this).find(".button-inner").find("ion-icon").attr("class" , "icon icon-md ion-md-remove");
+         }else{
+           $(this).closest(".moreCon").parent().next(".showInfo").hide();
+           $(this).find(".button-inner").find("ion-icon").attr("class" , "icon icon-md ion-md-add");
+         }
+        
+    });
+
+    // $('body').on("click" , '.ion-md-remove',function(){
+    //     console.log(22);
+        
+    // });
+
+    $('.dayTalks').each(function(index, el) {
+        console.log($(this).data("value"));
+        var thisDay = $(this).data("value");
+        var target = $(this);
+
+        if (thisDay == today){
+           
+          console.log($(this));
+          $(this).next(".showInfo").show();
+        }
+    });
+
 
   }
 

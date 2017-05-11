@@ -36,6 +36,25 @@
 </ion-content>
  -->
 
+
+<ion-col col-4 item-right class="iconWrap">
+    <a style="color: transparent;" href="https://www.facebook.com/globaltau/">  
+      <ion-icon name="logo-facebook" class="icon2"></ion-icon>
+    </a>  
+    <a style="color: transparent;" href="https://twitter.com/telavivuni?lang=en">
+      <ion-icon name="logo-twitter" class="icon2"></ion-icon>
+    </a>  
+    <a style="color: transparent;" href="https://www.instagram.com/telavivuni/?hl=en">
+      <ion-icon name="logo-instagram" class="icon2"></ion-icon>
+    </a>  
+    <a style="color: transparent;" href="https://www.linkedin.com/school/3154?pathWildcard=3154">
+      <ion-icon name="logo-linkedin" class="icon2"></ion-icon>
+    </a>  
+
+
+</ion-col>
+
+
 <ion-slides [options]="mySlideOptions">
    <ion-slide>
     <img src="assets/images/slider/1.jpg" height="360" width="581">
@@ -53,6 +72,46 @@
     <img src="assets/images/slider/5.jpg">
   </ion-slide>
 </ion-slides>
+
+
+
+<ion-card class="compt">
+
+<ion-card-content>
+    <p class="centerText">Enter our selfie competition.</p>
+  </ion-card-content>
+
+  <ion-row>
+    <ion-col col-7>
+      
+      <button ion-button icon-left clear small>
+        <div class="cIconText">Follow us on</div>
+      </button>
+    </ion-col>
+
+    <ion-col col-5>
+      <ion-col>
+        <a href="https://www.facebook.com/globaltau/">
+          <button ion-button icon-left clear small class="btnSocial">
+            <ion-icon name="logo-facebook" class="cIcon"></ion-icon>
+          </button>
+        </a>
+
+      </ion-col>
+
+      <ion-col>
+        <a href="https://twitter.com/telavivuni">
+          <button ion-button icon-left clear small class="btnSocial">
+            <ion-icon name="logo-twitter" class="cIcon"></ion-icon>
+          </button>
+        </a>
+      </ion-col>
+    </ion-col>
+    
+  </ion-row>
+</ion-card>
+
+
 
 
 <!-- <ion-slides padding [options]="{pager:true}" style="max-height:200px" class="sliderIm">
@@ -80,8 +139,9 @@
     <h2 color="c1">9:00am - 10:15am</h2>
     <span class="lineCO"></span>
     <h3>Finance Committee</h3>
-    <p>Eitan Berglas School of Economics, Fredy and Jetty
-Strauss, Argentina, Conference Room (101)</p>
+    <p>Eitan Berglas School of Economics, 
+    <br><span class="gold">Fredy and Jetty
+Strauss, Argentina, Conference Room (101)</span></p>
   </ion-item>
 </ion-list>
 
@@ -91,8 +151,8 @@ Strauss, Argentina, Conference Room (101)</p>
     <h2 color="c1">10:15am - 11:30am</h2>
     <span class="lineCO"></span>
     <h3>Funds and Trusts Committee</h3>
-    <p>Eitan Berglas School of Economics, Fredy and Jetty
-Strauss, Argentina, Conference Room (101)</p>
+    <p>Eitan Berglas School of Economics, <br><span class="gold">Fredy and Jetty
+Strauss, Argentina, Conference Room (101)</span></p>
   </ion-item>
 </ion-list>
 
@@ -118,10 +178,13 @@ Meeting</h3>
 
 <ion-list>
   <ion-item>
-    <h2 color="c1">12:30pm - 3:00pm</h2>
+    <h2 color="c1">12:30pm - 2:00pm</h2>
     <span class="lineCO"></span>
     <h3>Student Affairs Committee</h3>
-    <p>Itzhak Alfred Guttmann Administration Building (308)</p>
+    
+    <p><span class="gold">
+The Learning Gym Brender-Moss Library for Social Sciences, Management and Education, Lower level
+</span></p>
   </ion-item>
 </ion-list>
 
@@ -131,8 +194,8 @@ Meeting</h3>
     <span class="lineCO"></span>
     <h3>Campus Development and Maintenance
 Committee</h3>
-    <p>Porter School of Environmental Studies Building,
-Capsule (221)</p>
+    <p><span class="gold">Porter School of Environmental Studies Building,
+Capsule (221)</span></p>
   </ion-item>
 </ion-list>
 
@@ -149,14 +212,14 @@ Biotechnology, George S. Wise Faculty of Life Sciences;
 Center for Nanoscience and Nanotechnology
 <span class="title1">Speakers:</span>
 <span class="nameS">Prof. Tal Dvir</span>
-<span class="title1">Engineering Patient-Specific Organs and Body Parts</span>
+<span class="sub">Engineering Patient-Specific Organs and Body Parts</span>
 <span class="nameS">Prof. Yael Hanein</span>, Director, Center for Nanoscience and
 Nanotechnology; Director, Marian Gertner Institute for
 Medical Nanosystems; School of Electrical Engineering,
 Iby and Aladar Fleischman Faculty of Engineering
 <span class="sub">Do You See the Point? From Sight Restoration to
 Psychological Evaluation Using Nanotechnology</span>
-<span class="nameS">Dr. Yuval Ebenstein</span>, Raymond and Beverly Sackler
+<span class="nameS">Prof. Yuval Ebenstein</span>, Raymond and Beverly Sackler
 School of Chemistry, Raymond and Beverly Sackler
 Faculty of Exact Sciences
 <span class="sub">Beyond Genetics</span>
@@ -164,7 +227,8 @@ Faculty of Exact Sciences
 Oral Biology, Goldschleger School of Dental
 Medicine, Sackler Faculty of Medicine
 <span class="sub">Harnessing Nature to Create New Organic Materials
-For Tissue Regeneration</span></p>
+For Tissue Regeneration</span><span class="gold">George S. Wise Senate Building
+Raya and Josef Jaglom Auditorium</span></p>
 
   </ion-item>
 </ion-list>
@@ -198,7 +262,7 @@ Welcoming New Governors</span>
 <span class="title1">State of the University</span>
 <span class="nameS">Prof. Joseph Klafter</span>, President
 <span class="title1">Executive Summary</span>
-<span class="nameS">Dr. Giora Yaron, Chairman</span>, Executive Council
+<span class="nameS">Dr. Giora Yaron, </span>Chairman , Executive Council
 <span class="title1">TAU Capital Campaign</span>
 <span class="nameS">Mrs. Dafna Meitar-Nechmad</span>,
 TAU Capital Campaign Co-Chair
@@ -226,8 +290,9 @@ Raya and Josef Jaglom Auditorium</span></p>
     <span class="title1"><h3>From the Blackboard to Personalized Learning:
 Cognitive Science and Education</h3></span>
     <p>Chair:
-<span class="nameS">Prof. Yaron Oz, Rector, TAU</span>
-Speakers:
+<span class="nameS">Prof. Yaron Oz,</span> Rector, TAU
+<br>
+<span class="title1">Speakers:</span>
 <br>
 <span class="nameS">Dr. Tom Schonberg</span>, Department of Neurobiology,
 George S. Wise Faculty of Life Sciences; Sagol School of
@@ -245,7 +310,7 @@ From One Hand to the Other</span>
 <span class="nameS">Prof. Liat Kishon-Rabin</span>, Head, Stanley Steyer School of
 Health Professions, Sackler Faculty of Medicine
 <span class="sub">Nature and Nurture in Auditory Sensory Impairment</span>
-<span class="gold">George S. Wise Senate Building
+<span class="gold">George S. Wise Senate Building, 
 Raya and Josef Jaglom Auditorium</span></p>
   </ion-item>
 </ion-list>
@@ -259,12 +324,15 @@ Raya and Josef Jaglom Auditorium</span></p>
     <h2 color="c1">12:15pm - 1:45pm</h2>
     <span class="lineCO"></span>
     <h3>Welcome Lunch</h3>
-    <p>Celebrate the opening of the 2017 Board of
+    <p>Celebrate the opening of the 2017 
+      Board of
 Governors meeting with fellow Governors from
 around the globe
+<br>
+<span class="gold">
 Board of Governors Tent at the Sarita and Noel
-Werthein Senate Plaza, adjacent to the George S. Wise
-Senate Building</p>
+Werthein Senate Plaza, adjacent to the George S. Wise,
+Senate Building</span></p>
    <p class="invit">By invitation only</p>
   </ion-item>
 </ion-list>
@@ -273,8 +341,8 @@ Senate Building</p>
   <ion-item>
     <h2 color="c1">2:00pm – 3:00pm</h2>
     <span class="lineCO"></span>
-    <h3>Launching of the Sylvan Adams Sports Excellence
-Institute (SASEI)</h3>
+    <h3>Launching of the Sylvan Adams Sports
+Institute (SASI)</h3>
     <p>Elite Sports Center</p>
   </ion-item>
 </ion-list>
@@ -295,7 +363,7 @@ Secretary of State on Holocaust Issues and former US
 Ambassador to the European Union
 <span class="sub">The Role, Challenges and Influence of the Media in
 America Today</span>
-<span class="gold">George S. Wise Senate Building
+<span class="gold">George S. Wise Senate Building,
 Raya and Josef Jaglom Auditorium</span></p>
   </ion-item>
 </ion-list>
@@ -306,7 +374,7 @@ Raya and Josef Jaglom Auditorium</span></p>
 
 <ion-card-header class="colorB">
     HONORARY DEGREES CONFERMENT CEREMONY
-Doctor Philosophiae Honoris Causa and Awarding of the George S. Wise Medal
+<br><span class="title1">Doctor Philosophiae Honoris Causa and Awarding of the George S. Wise Medal</span>
 </ion-card-header>
 
 
@@ -325,11 +393,12 @@ Doctor Philosophiae Honoris Causa and Awarding of the George S. Wise Medal
     <h2 color="c1">8:00pm</h2>
     <span class="lineCO"></span>
     <span class="title1"><h3>Ceremony</h3></span>
-    <p><span class="gold">Miriam and Adolfo Smolarz Auditorium</span>
-      <br>
+    <p><span class="gold">Miriam and Adolfo Smolarz Auditorium <br><span class="title1">Musical Interlude</span></span>
+ 
 <span class="title1">2017 Recipients</span>
 George S. Wise Medal
 <br><span class="nameS">Amb. Stuart E. Eizenstat</span>, USA
+<br>
 Honorary Doctors
 <br><span class="nameS">The Hon. Tony Abbott MP</span>, Australia
 <br><span class="nameS">Dr. Mario Draghi</span>, Italy
@@ -340,14 +409,14 @@ Honorary Doctors
 <br><span class="nameS">Mrs. Raya Strauss Ben-Dror</span>, Israel
 <br><span class="nameS">Mr. Ratan Tata</span>, India
 <br><span class="nameS">Prof. Qiu Yong</span>, China
-Honorary Fellowship
+<br>Honorary Fellowship
 <br><span class="nameS">Habima National Theater</span>
 <br><span class="nameS">Mrs. Shira Shofty</span>, Dov Lautman Unit for Science
 Oriented Youth, Tel Aviv University
-Response on behalf of the recipients:
+<br>Response on behalf of the recipients:
 <br><span class="nameS">Dr. Mario Draghi</span>
-Musical Interlude
-Habima National Theater</p>
+<br>Musical Interlude
+<br><span class="nameS">Habima National Theater</span></p>
   </ion-item>
 </ion-list>
 
@@ -397,14 +466,14 @@ Technological Innovation and Entrepreneurship</h3>
 
 <ion-list>
   <ion-item>
-    <h2 color="c1">11:05am – 01:00pm</h2>
+    <h2 color="c1">11:00am – 1:00pm</h2>
     <span class="lineCO"></span>
     <h3>Geopolitical Symposium</h3>
-    <p><span class="sub">The Polarized GlobalSystem - Challenges and Prospects</span>
+    <p><span class="sub">The Polarized Global System - Challenges and Prospects</span>
 <span class="title1">Moderator:</span>
 <span class="nameS">Prof. Jacob A. Frenkel</span>, Chairman, TAU Board of
 Governors, former Governor of the Bank of Israel
-Speakers:
+<span class="title1">Speakers:</span>
 <br><span class="nameS">Amb. Stuart E. Eizenstat</span>, Special Advisor to the
 Secretary of State on Holocaust Issues and former US
 Ambassador to the EU
@@ -433,6 +502,11 @@ Raya and Josef Jaglom Auditorium</span></p>
     <h2 color="c1">1:00pm – 2:00pm</h2>
     <span class="lineCO"></span>
     <h3>Lunch</h3>  
+    <p>
+    <span class="gold">
+Board of Governors Tent at the Sarita and Noel
+Werthein Senate Plaza, adjacent to the George S. Wise
+Senate Building</span></p>
     <p class="invit">By invitation only</p>
   </ion-item>
 </ion-list>
@@ -446,8 +520,9 @@ Economics for 2017</h3></span>
     <p>Prize Recipients: 
 <br><span class="nameS">Gaby and Etty Rotter</span>, Co-CEOs, Castro
 Model Ltd.
+<br>
 Remarks: 
-<br><span class="nameS">Mr. Jean-Claude Trichet</span>, former President of
+<br><span class="nameS">Mr. Jean-Claude Trichet</span>, Awarding of the Hugo and Valerie Ramniceanu Scholarship in Economics for 2017 <br> former President of
 the European Central Bank and former Governor of the
 Bank of France
 <br><span class="gold">George S. Wise Senate Building
@@ -499,6 +574,7 @@ History
 <br><span class="gold">The Steinhardt Museum of Natural History
 Israel National Center for Biodiversity Studies</span>
 <br>Dress Code: Festive</p>
+<p class="invit">By invitation only</p>
   </ion-item>
 </ion-list>
 
@@ -517,12 +593,13 @@ Israel National Center for Biodiversity Studies</span>
     <span class="title1"><h3>The Annual John Gandel Symposium on the
 Middle East</h3></span>
     <p>Keynote Speaker:
+<br><span class="nameS">Chair: Mr. Richard Sincere</span>, National Chairman, AFTAU
 <br><span class="nameS">Lt.-Gen. (res.) Moshe (Bogie) Ya'alon</span>, former IDF Chief
 of Staff and former Israel Defense Minister
 Co-Chairs:
-<br><span class="nameS">Prof. Uzi Rabi, Director</span>, Moshe Dayan Center for Middle
+<br><span class="nameS">Prof. Uzi Rabi, </span>Director, Moshe Dayan Center for Middle
 Eastern and African Studies, TAU
-<br><span class="nameS">Mr. Richard Sincere</span>, National Chairman, AFTAU
+
 <br><span class="gold">George S. Wise Senate Building
 Raya and Josef Jaglom Auditorium</span></p>
   </ion-item>
@@ -539,10 +616,12 @@ Raya and Josef Jaglom Auditorium</span></p>
     <h2 color="c1">11:00am - 1:00pm</h2>
     <span class="lineCO"></span>
     <h3><span class="title1">Second Assembly of the Board of Governors</span></h3>
-    <p><br><span class="nameS">Kadar Family Award for Outstanding Research
+    <p>
+      <span class="nameS">Prof. Jacob A. Frenkel</span>, Chairman, TAU Board of
+Governors
+      <br><span class="title1">Kadar Family Award for Outstanding Research
 and Presentations by the 2017 Award Recipients</span>
-<span class="title1"> Chair: </span>
-<br><span class="nameS">Prof. Yoav Henis, VP for Research and</span>
+<span class="nameS">Chair:  Prof. Yoav Henis, </span>VP for Research and
 Development
 <br><span class="nameS">Prof. Ron Shamir</span>, Blavatnik School of Computer
 Science, Raymond and Beverly Sackler Faculty of
@@ -550,14 +629,14 @@ Exact Sciences
 <br><span class="nameS">Prof. Nira Liberman</span>, School of Psychological
 Sciences, Gershon H. Gordon Faculty of Social
 Sciences
-<br><span class="nameS">Prof. Oded Hod</span>, School of Chemistry, Raymond and
-Beverly Sackler School of Chemistry
+<br><span class="nameS">Prof. Oded Hod</span>, Raymond and
+Beverly Sackler School of Chemistry Raymond and Beverly Sackler Faculty of Exact Sciences 
 <br><span class="nameS">Prof. Roy Mukamel</span>, School of Psychological
 Sciences, Gershon H. Gordon Faculty of Social
 Sciences </p>
-<p><span class="title1">State of the Student Union</span>
-<br><span class="nameS">Ms. Shay Charni</span>, Chairperson, Student Union</p>
-<p><span class="title1">Committee Reports and Resolutions</span>
+<p><br><span class="title1">State of the Student Union</span>
+<span class="nameS">Ms. Shay Charni</span>, Chairperson, Student Union</p>
+<p><br><span class="title1">Committee Reports and Resolutions</span>
 <br><span class="gold">George S. Wise Senate Building
 Raya and Josef Jaglom Auditorium</span></p>
   </ion-item>
@@ -569,22 +648,15 @@ Raya and Josef Jaglom Auditorium</span></p>
     <h2 color="c1">1:00pm - 2:30pm</h2>
     <span class="lineCO"></span>
     <h3>Lunch</h3>
+    <p>
+    <span class="gold">
+Board of Governors Tent at the Sarita and Noel
+Werthein Senate Plaza, adjacent to the George S. Wise
+Senate Building</span></p>
     <p class="invit">By invitation only</p>
   </ion-item>
 </ion-list>
 
-
-<ion-list>
-  <ion-item>
-    <h2 color="c1">2:45pm – 3:30pm</h2>
-    <span class="lineCO"></span>
-    <h3><span class="title1">Inauguration of the Argentina Phd Fund for the Direct
-PhD Program in Life Sciences</span></h3>
-    <p><span class="gold">George S. Wise Faculty of Life Sciences, Archie Sherman
-Building of Life Sciences (003)</span>
-</p>
-  </ion-item>
-</ion-list>
 
 
 <ion-list>
@@ -617,7 +689,7 @@ Sciences:
 <br><span class="nameS">Prof. Svante Paabo</span>, Max Planck Institute for
 Evolutionary Anthropology, Germany
 <br><span class="nameS">Prof. David Reich</span>, Harvard Medical School, USA
-Present Time Dimension – Literature:
+Present Time Dimension – Literature/Astronomy
 <br><span class="nameS">Jamaica Kincaid</span>, Author, USA
 <br><span class="nameS">A. B. Yehoshua</span>, Author, Israel
 Future Time Dimension – Astronomy
@@ -641,7 +713,7 @@ Warsaw University, Poland</p>
   <ion-item>
     <h2 color="c1">10:45am</h2>
     <span class="lineCO"></span>
-    <h3>Cornerstone Laying Ceremony for the Azrieli
+    <h3>Cornerstone Laying Ceremony for the Azrieli School of
 Architecture Building</h3>
     <p><span class="gold">Adjacent to Frenkel Gate (7)</span></p>
   </ion-item>
@@ -668,7 +740,6 @@ Orchestra</h3>
 
 <div #map id="map" padding></div>
 
-<button class="goto" ion-button outline href="waze://?ll=32.1133141,34.802199&navigate=yes">Go To Adress</button>
 </ion-card>
 
 <ion-list>

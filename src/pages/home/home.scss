@@ -24,6 +24,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bc8e1a', end
     font-size: 14px;
 
 }
+
+.btnSocial{
+ 
+ padding:0px;    
+
+}
+
+
 .programTitle.card-title {
     padding: 10px 10px;
     color: #bd952f;
@@ -31,9 +39,17 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bc8e1a', end
     text-transform: uppercase;
 }
 
+
+
 .item-md .text-md-c1 {
     color: #000000!important;
 }
+
+h3 {
+    overflow: initial;
+    white-space: initial;
+}
+
 
 span.title1 {
     color: #314272;
@@ -58,6 +74,8 @@ span.nameS {
 
 span.gold {
     color: #a48d52;
+    overflow: initial;
+    white-space: initial;
 }
 
 p.invit {
@@ -65,6 +83,37 @@ p.invit {
 }
 
 
+.iconWrap {
+    padding: 10px;
+}
+
+
+.compt {
+    background: #a0a0a0!important;
+}
+
+
+.icon2 {
+    font-size: 1.8em;
+    color: black;
+}
+
+
+p.centerText {
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.cIcon {
+        font-size: 2.1em !important;
+    color: #ffffff;
+}
+
+.cIconText {
+    color: #ffffff;
+}
 
 span.sub {font-style: italic;color: #314272;display: block;}
 
@@ -74,7 +123,9 @@ span.sub {font-style: italic;color: #314272;display: block;}
 
  .colorB {
     font-family: 'Lato', sans-serif;
-    color: #5584A3
+    color: #5584A3;
+    overflow: initial;
+    white-space: initial;
 }
 
 
