@@ -24,18 +24,18 @@ export class ProgramsPage{
   ionViewDidLoad() {
      
     $('.showInfo').hide();
-    let today = new Date();
-    let dd = today.getDate();
-    let mm = today.getMonth()+1; 
+    var today: any = new Date();
+    var dd: any = today.getDate();
+    var mm: any = today.getMonth()+1; 
 
     var yyyy= today.getFullYear();
     if(dd<10){
-        let dd='0'+dd;
+         dd='0'+dd;
     } 
     if(mm<10){
-        let mm='0'+mm;
+         mm='0'+mm;
     } 
-    let today= dd+'/'+mm;
+    today= dd+'/'+mm;
     
     console.log(today);
 
