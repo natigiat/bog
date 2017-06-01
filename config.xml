@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<widget id="com.ionicframework.myapp883635" version="8" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-  <name>TAU</name>
+<widget id="com.ionicframework.myapp883635" version="0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+  <name>BOG</name>
   <description>Tel Aviv University Board Of Governors Official App</description>
   <author email="crmsupport@lln.co.il" href="lln.co.il">LLN IT Solutions</author>
   <icon src="resources\android\icon\drawable-mdpi-icon.png"/>
